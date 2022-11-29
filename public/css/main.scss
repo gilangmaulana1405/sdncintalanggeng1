@@ -1,0 +1,15 @@
+$primary: #5fcf80;
+$success : #0f5132;
+$warning: #ffc107;
+$danger: #dc3545;
+$info: #0dcaf0;
+$secondary: #6610f2;
+
+$theme-colors: ("primary": $primary,
+    "success" : $success,
+    "warning": $warning,
+    "danger": $danger,
+    "info": $info,
+    "secondary": $secondary);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
